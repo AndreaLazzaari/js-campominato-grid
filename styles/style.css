@@ -4,3 +4,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header{
+    /* height: 100px; */
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem;
+}
+
+main{
+    background-color: #7fffd4;
+    height: 500px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
