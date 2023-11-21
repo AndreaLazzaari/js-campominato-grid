@@ -25,9 +25,9 @@ main{
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 650px;
-    height: 650px;
-    padding: 2rem;
+    width: 550px;
+    height: 550px;
+    
 }
 
 article.quadrato{
