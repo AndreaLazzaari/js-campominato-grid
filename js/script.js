@@ -25,7 +25,8 @@ buttonElement.addEventListener('click', function(){
   
 
     quadrato.addEventListener ('click', function(){
-      this.classList.toggle('clicccato')
+      this.classList.toggle('cliccato')
+      console.log(contenutoQuadrato)
     })
   }
 
