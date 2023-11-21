@@ -11,20 +11,19 @@
 let buttonElement = document.querySelector ('button');
 let mainContainerElement = document.querySelector('div.main-container')
 
-for (let i = 1; i <= 100; i++) {
-  // mainContainerElement.appendChild(creazioneQuadrato(i));
 
-  const quadrato = creazioneQuadrato();
-  const contenutoQuadrato = i;
-  quadrato.innerHTML += `<span> ${contenutoQuadrato} </span`;
-
-  mainContainerElement.appendChild(quadrato)
-
-}
 
 buttonElement.addEventListener('click', function(){
 
+  for (let i = 1; i <= 100; i++) {
 
+    const quadrato = creazioneQuadrato();
+    const contenutoQuadrato = i;
+    quadrato.innerHTML += `<span> ${contenutoQuadrato} </span`;
+  
+    mainContainerElement.appendChild(quadrato)
+  
+  }
 
 })
 
