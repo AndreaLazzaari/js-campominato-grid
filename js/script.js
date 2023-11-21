@@ -12,7 +12,7 @@ let buttonElement = document.querySelector ('button');
 let mainContainerElement = document.querySelector('div.main-container')
 
 for (let i = 1; i <= 100; i++) {
-  mainContainerElement.appendChild(creazioneQuadrato(i));
+  // mainContainerElement.appendChild(creazioneQuadrato(i));
 
   const quadrato = creazioneQuadrato();
   const contenutoQuadrato = i;
