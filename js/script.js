@@ -23,6 +23,10 @@ buttonElement.addEventListener('click', function(){
   
     mainContainerElement.appendChild(quadrato)
   
+
+    quadrato.addEventListener ('click', function(){
+      this.classList.toggle('clicccato')
+    })
   }
 
 })
