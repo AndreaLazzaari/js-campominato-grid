@@ -35,8 +35,8 @@ buttonElement.addEventListener('click', function(){
  * @returns elemento singolo quadrato
  */
 function creazioneQuadrato() {
-  let elementoDiv = document.createElement('div');
-  elementoDiv.classList.add('quadrato');
+  let elementoArticle = document.createElement('article');
+  elementoArticle.classList.add('quadrato');
   
-  return elementoDiv;
+  return elementoArticle;
 }
