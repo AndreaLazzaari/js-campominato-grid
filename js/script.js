@@ -8,20 +8,22 @@
 // creare una tabella 10x10
 // al click del bottone inserire in ogni cella un numero progressivo da 1 a 100
 
-let buttonElement = document.querySelector ('button');
 let mainContainerElement = document.querySelector('div.main-container')
+let buttonElement = document.querySelector ('button');
 
 
 
 buttonElement.addEventListener('click', function(){
+    mainContainerElement.innerHTML = '';
 
   for (let i = 1; i <= 100; i++) {
 
-    const quadrato = creazioneQuadrato();
+
+    let quadrato = creazioneQuadrato();
     const contenutoQuadrato = i;
     quadrato.innerHTML += `<span> ${contenutoQuadrato} </span`;
   
-    mainContainerElement.appendChild(quadrato)
+    mainContainerElement.appendChild(quadrato);
   
 
     quadrato.addEventListener ('click', function(){
